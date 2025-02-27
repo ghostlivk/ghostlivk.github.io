@@ -8,20 +8,15 @@ h1 {
 h2{ 
   text-align: center;
 }
+h3{
+  text-align: left;
+}
 p {
   text-align: center;
 }
 img {
   margin-inline: auto;
   display: block;
-}
-h3 {
-  text-align: left;
-}
-ul {
-  display: block;
-  text-align: center;
-  border: 1px solid;
 }
 .container {
   max-width: 800px;
@@ -30,20 +25,31 @@ ul {
 a {
   text-align: center;
 }
-body{
-  background-color: pink;
-  background:repeating-conic-gradient(
-  red 0%,
-  rgba(183, 0, 255, 0.336) 15%,
-  red 33%
-);
+body {
+    background: repeating-conic-gradient(
+    red 0%,
+    rgba(183, 0, 255, 0.336) 15%,
+    red 33%
+  );
+    min-height: 100lvh;
 }
 nav {
   display: grid;
   grid-auto-flow: column;
 }
-a[href="/"]{
+a[href="/"] {
 	text-align: right;
 	width: 100%;
 	display: inline-block;
+}
+.box {
+  border: 5px solid rgb(50, 1, 100);
+  background-color: transparent;
+  padding: 40px;
+  margin: 40px;
+  width: auto;
+  height: auto;
+}
+#palmetto {
+display:right;
 }
