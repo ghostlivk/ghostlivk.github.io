@@ -18,12 +18,12 @@ img {
   margin-inline: auto;
   display: block;
 }
+a {
+  text-align: center;
+}
 .container {
   max-width: 800px;
   margin-inline: auto;
-}
-a {
-  text-align: center;
 }
 body {
     background: repeating-conic-gradient(
@@ -49,7 +49,4 @@ a[href="/"] {
   margin: 40px;
   width: auto;
   height: auto;
-}
-#palmetto {
-display:right;
 }
